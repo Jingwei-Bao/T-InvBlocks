@@ -72,6 +72,7 @@ To accelerate training, we suggest [crop the 2K resolution images to sub-images]
 The pretrained models is available in `./experiments/pretrained_models` and the config files is available in `./codes/options` for quickly reproducing the results reported in the paper.
 
 T-IRN:
+
 For scale x2, change directory to `.code/`, run
 ```shell
 python test.py -opt options/test/TIRN_2.yml 
@@ -82,6 +83,7 @@ python test.py -opt options/test/TIRN_4.yml
 ```
 
 T-SAIN:
+
 For scale x2 with JPEG compression QF=90, change directory to `.code/`, run
 ```shell
 python test.py -opt options/test/TSAIN_2.yml -format JPEG -qf 90
@@ -93,7 +95,8 @@ python test.py -opt options/test/TSAIN_4.yml -format JPEG -qf 90
 
 ## Training
  The training configs are included in  `./codes/options/train`. 
- T-IRN.
+ 
+ T-IRN:
  
 For scale x2, change directory to `.code/`, run
 ```shell
@@ -108,9 +111,9 @@ T-SAIN:
 
 For scale x2 with JPEG compression QF=90, change directory to `.code/`, run
 ```shell
-python train.py -opt options/train/TSAIN_2.yml -format JPEG -qf 90
+python train.py -opt options/train/TSAIN_2.yml 
 ```
 For scale x4 with JPEG compression QF=90, change directory to `.code/`, run
 ```shell
-python train.py -opt options/train/TSAIN_4.yml -format JPEG -qf 90
+python train.py -opt options/train/TSAIN_4.yml 
 ```
