@@ -117,3 +117,5 @@ For scale x4 with JPEG compression QF=90, change directory to `.code/`, run
 ```shell
 python train.py -opt options/train/TSAIN_4.yml 
 ```
+## Acknowledgement
+The code is based on [SAIN](https://github.com/yang-jin-hai/SAIN),[IRN](https://github.com/pkuxmq/Invertible-Image-Rescaling/tree/ECCV) and [BasicSR](https://github.com/xinntao/BasicSR).
