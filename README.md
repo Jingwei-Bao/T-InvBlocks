@@ -93,7 +93,8 @@ python test.py -opt options/test/TSAIN_4.yml -format JPEG -qf 90
 
 ## Training
  The training configs are included in  `./codes/options/train`. 
- T-IRN:
+ T-IRN.
+ 
 For scale x2, change directory to `.code/`, run
 ```shell
 python train.py -opt options/train/TIRN_2.yml 
@@ -104,6 +105,7 @@ python train.py -opt options/train/TIRN_4.yml
 ```
 
 T-SAIN:
+
 For scale x2 with JPEG compression QF=90, change directory to `.code/`, run
 ```shell
 python train.py -opt options/train/TSAIN_2.yml -format JPEG -qf 90
