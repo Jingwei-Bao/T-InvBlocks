@@ -1,15 +1,16 @@
-# Plug-and-Play-Tri-Branch-Invertible-Block-for-Image-Rescaling
+# Plug-and-Play Tri-Branch Invertible Block for Image Rescaling (T-InvBlock)
+This is the official PyTorch implementation of paper "Plug-and-Play Tri-Branch Invertible Block for Image Rescaling" (AAAI 2025)
 
 ## Dependencies and Installation
 The codes are developed under the following environments:
-1. Python 3.7.1 (Recommend to use Anaconda)
+1. `Python 3.7.1` (Recommend to use conda)
 
 ```shell
-conda create -n sain python=3.7.1
-conda activate sain
+conda create -n tinvb python=3.7.1
+conda activate tinvb
 ```
 
-2. PyTorch=1.9.0, torchvision=0.10.0, cudatoolkit=11.1
+2. `PyTorch=1.9.0, torchvision=0.10.0, cudatoolkit=11.1`
 
 ```shell
 python -m pip install --upgrade pip
@@ -118,4 +119,4 @@ For scale x4 with JPEG compression QF=90, change directory to `.code/`, run
 python train.py -opt options/train/TSAIN_4.yml 
 ```
 ## Acknowledgement
-The code is based on [SAIN](https://github.com/yang-jin-hai/SAIN),[IRN](https://github.com/pkuxmq/Invertible-Image-Rescaling/tree/ECCV) and [BasicSR](https://github.com/xinntao/BasicSR).
+The code is based on [SAIN](https://github.com/yang-jin-hai/SAIN), [IRN](https://github.com/pkuxmq/Invertible-Image-Rescaling/tree/ECCV) and [BasicSR](https://github.com/xinntao/BasicSR).
