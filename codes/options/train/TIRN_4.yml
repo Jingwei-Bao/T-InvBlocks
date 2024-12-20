@@ -75,7 +75,7 @@ train:
 
   lambda_fit_forw: 1.
   lambda_rec_back: 1
-  weight_decay: !!float 2e-4
+  weight_decay: !!float 1e-5
   gradient_clipping: 10
 
 
