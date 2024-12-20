@@ -56,7 +56,7 @@ train:
   use_realcomp: true
   comp_format: JPEG
   comp_quality: -1
-  lr: !!float 3.125e-6
+  lr: !!float 2e-4
   beta1: 0.9
   beta2: 0.999
   niter: 800000
