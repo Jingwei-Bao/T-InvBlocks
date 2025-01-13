@@ -7,7 +7,7 @@
 <div align="center">
 
 [![AAAI](https://img.shields.io/badge/AAAI%202025-Accepted-informational.svg)](https://openreview.net/forum?id=gTQ1vb4wZj&noteId=EjBWHdePwl)
-[![arXiv](https://img.shields.io/badge/arXiv%20paper-2412.12508-b31b1b.svg)](https://arxiv.org/abs/2412.13508)&nbsp;
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2412.12508-b31b1b.svg)](https://arxiv.org/abs/2412.13508)
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=Jingwei-Bao/T-InvBlocks)
 
 </div>
