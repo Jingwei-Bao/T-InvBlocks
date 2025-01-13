@@ -1,17 +1,3 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-set5-2x)](https://paperswithcode.com/sota/image-rescaling-on-set5-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-set14-2x)](https://paperswithcode.com/sota/image-rescaling-on-set14-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-bsd100-2x)](https://paperswithcode.com/sota/image-rescaling-on-bsd100-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-urban100-2x)](https://paperswithcode.com/sota/image-rescaling-on-urban100-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-2x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-4x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-4x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q30-2x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q30-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q50-2x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q50-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q70-2x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q70-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q30-4x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q30-4x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q50-4x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q50-4x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q70-4x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q70-4x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
-
-
 <div align="center">
 
 # Tri-Branch Invertible Block for Image Rescaling (T-InvBlock)
@@ -22,10 +8,11 @@
 
 [![AAAI](https://img.shields.io/badge/AAAI%202025-Accepted-informational.svg)](https://openreview.net/forum?id=gTQ1vb4wZj&noteId=EjBWHdePwl)
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2412.12508-b31b1b.svg)](https://arxiv.org/abs/2412.13508)&nbsp;
+![Visitor](https://visitor-badge.laobi.icu/badge?page_id=Jingwei-Bao/T-InvBlocks)
 
 </div>
 
-This repository is the official implementation of the paper [Plug-and-Play Tri-Branch Invertible Block for Image Rescaling](https://arxiv.org/abs/2412.13508) (AAAI 2025).
+> This repository is the official implementation of the paper [Plug-and-Play Tri-Branch Invertible Block for Image Rescaling](https://arxiv.org/abs/2412.13508) (AAAI 2025).
 
 ## 💥 News
 
@@ -122,6 +109,23 @@ python test.py -opt options/test/TSAIN_2.yml -format JPEG -qf 90
 # For scale x4 with JPEG compression QF=90, change directory to `.code/`, run
 python test.py -opt options/test/TSAIN_4.yml -format JPEG -qf 90
 ```
+<details>
+<summary><b>State of the Art Performance</b></summary>
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-set5-2x)](https://paperswithcode.com/sota/image-rescaling-on-set5-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-set14-2x)](https://paperswithcode.com/sota/image-rescaling-on-set14-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-bsd100-2x)](https://paperswithcode.com/sota/image-rescaling-on-bsd100-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-urban100-2x)](https://paperswithcode.com/sota/image-rescaling-on-urban100-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-2x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-4x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-4x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q30-2x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q30-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q50-2x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q50-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q70-2x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q70-2x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q30-4x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q30-4x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q50-4x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q50-4x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/plug-and-play-tri-branch-invertible-block-for/image-rescaling-on-div2k-val-q70-4x)](https://paperswithcode.com/sota/image-rescaling-on-div2k-val-q70-4x?p=plug-and-play-tri-branch-invertible-block-for)&nbsp;
+
+</details>
 
 ## 🚀 Training
 The training configs are included in `./codes/options/train`. 
