@@ -10,6 +10,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2412.12508-b31b1b.svg)](https://arxiv.org/abs/2412.13508)
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=Jingwei-Bao/T-InvBlocks)
 
+[Jingwei Bao](https://scholar.google.com.hk/citations?user=9rInCsUAAAAJ), [Jinhua Hao](https://eric-hao.github.io/), [Pengcheng Xu](), [Ming Sun](https://msunming.github.io/), [Chao Zhou](), [Shuyuan Zhu]()
+
 </div>
 
 > This repository is the official implementation of the paper [Plug-and-Play Tri-Branch Invertible Block for Image Rescaling](https://arxiv.org/abs/2412.13508) (AAAI 2025).
