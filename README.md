@@ -156,11 +156,12 @@ The code is based on [SAIN](https://github.com/yang-jin-hai/SAIN), [IRN](https:/
 ## 🔍 Citation
 If our work assists your research, feel free to give us a star ⭐ or cite us using:
 ```
-@misc{bao2024tinvb,
-    title={Plug-and-Play Tri-Branch Invertible Block for Image Rescaling}, 
-    author={Jingwei Bao and Jinhua Hao and Pengcheng Xu and Ming Sun and Chao Zhou and Shuyuan Zhu},
-    year={2024},
-    eprint={2412.13508},
-    archivePrefix={arXiv},
-    primaryClass={eess.IV},
+@inproceedings{bao2025plug,
+  title={Plug-and-play tri-branch invertible block for image rescaling},
+  author={Bao, Jingwei and Hao, Jinhua and Xu, Pengcheng and Sun, Ming and Zhou, Chao and Zhu, Shuyuan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={2},
+  pages={1826--1834},
+  year={2025}
 }
